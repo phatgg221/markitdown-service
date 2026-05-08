@@ -20,7 +20,7 @@ jobs:
           passphrase: ${{ secrets.DO_PASSPHRASE }}
           script: |
             # 1. Navigate to the project directory
-            cd /var/www/markitdown-service
+            cd /root/markitdown-service
             
             # 2. Pull the latest code from GitHub
             git pull origin main
