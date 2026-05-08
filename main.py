@@ -37,7 +37,7 @@ async def convert_pdf_to_markdown(file: UploadFile = File(...)):
 
 @app.get("/health")
 async def health_check():
-    return {"status": "ok"}
+    return {"status": "ok22"}
 
 if __name__ == "__main__":
     import uvicorn
